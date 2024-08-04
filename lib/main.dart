@@ -13,8 +13,10 @@ class FirstScreen extends StatelessWidget{
          home:
             Scaffold(
             appBar:AppBar(title:
-            Container(child: (Text("welcome to our App")),alignment:Alignment.center),
-              
+            Container(child: (Text
+              ("welcome to our App",))
+            ),
+              backgroundColor: Colors.blueGrey,
             ),
           body: Row(children: [
             Text("text using row widget",),
